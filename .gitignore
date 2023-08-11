@@ -49,3 +49,6 @@ local
 
 # vercel
 .vercel
+
+# Sentry Auth Token
+.sentryclirc

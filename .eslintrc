@@ -42,6 +42,8 @@
             "endOfLine": "auto"
           }
         ],
+        "@typescript-eslint/no-unreachable": "off", // want to be able to test Sentry error capturing; remove this line in any non-dev environment
+        "no-unreachable": "off", // want to be able to test Sentry error capturing; remove this line in any non-dev environment
         "react/function-component-definition": "off", // Disable Airbnb's specific function type
         "react/destructuring-assignment": "off", // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
         "react/require-default-props": "off", // Allow non-defined react props as undefined
